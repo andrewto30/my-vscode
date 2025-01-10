@@ -23,7 +23,7 @@
     "editor.cursorBlinking": "solid",
     "editor.formatOnSave": true,
     "editor.renderLineHighlight": "none",
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
     "extensions.ignoreRecommendations": true,
     //"editor.guides.bracketPairs": "active",
     "editor.stickyScroll.enabled": true,
@@ -31,177 +31,176 @@
     "workbench.layoutControl.enabled": false,
     "editor.minimap.enabled": false,
     "workbench.activityBar.location": "hidden",
-    "workbench.sideBar.location": "right"
-
-  // Vim setup
-  "vim.enableNeovim": false,
-  "vim.neovimPath": "/usr/bin/nvim",
-  "vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
-  "vim.leader": "<space>",
-  // "vim.cursorStylePerMode.insert": "block",
-  "vim.easymotion": true,
-  "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
-  "vim.handleKeys": {
-    "<C-a>": false,
-    "<C-p>": false,
-    "<C-f>": false,
-    "<C-b>": false
-  },
-  "vim.insertModeKeyBindings": [
-    {
-      "before": [
-        "j",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": [
-        "<leader>",
-        "d"
-      ],
-      "after": [
-        "d",
-        "d"
-      ]
+    "workbench.sideBar.location": "right",
+    // Vim setup
+    //   "vim.enableNeovim": false,
+    //   "vim.neovimPath": "/usr/bin/nvim",
+    "vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
+    "vim.leader": "<space>",
+    // "vim.cursorStylePerMode.insert": "block",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-p>": false,
+        "<C-f>": false,
+        "<C-b>": false
     },
-    {
-      "before": [
-        "<leader>",
-        "i"
-      ],
-      "after": [],
-      "commands": [
+    "vim.insertModeKeyBindings": [
         {
-          "command": "workbench.action.terminal.focus"
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "e"
-      ],
-      "commands": [
-        "workbench.files.action.focusFilesExplorer"
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "b"
-      ],
-      "commands": [
-        "workbench.action.toggleSidebarVisibility"
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "u"
-      ],
-      "after": [],
-      "commands": [
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
         {
-          "command": "workbench.action.focusActiveEditorGroup"
-        }
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "p"
-      ],
-      "commands": [
-        "workbench.action.quickOpen"
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "o"
-      ],
-      "after": [],
-      "commands": [
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
         {
-          "command": "workbench.action.quickOpen"
-        }
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "n"
-      ],
-      "after": [],
-      "commands": [
+            "before": [
+                "<leader>",
+                "i"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.terminal.focus"
+                }
+            ]
+        },
         {
-          "command": "workbench.action.terminal.toggleTerminal"
-        }
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "v"
-      ],
-      "after": [],
-      "commands": [
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.files.action.focusFilesExplorer"
+            ]
+        },
         {
-          "command": "workbench.action.splitEditor"
-        }
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "h"
-      ],
-      "after": [],
-      "commands": [
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
         {
-          "command": "workbench.action.focusFirstEditorGroup"
-        }
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "l"
-      ],
-      "after": [],
-      "commands": [
+            "before": [
+                "<leader>",
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.focusActiveEditorGroup"
+                }
+            ]
+        },
         {
-          "command": "workbench.action.focusSecondEditorGroup"
-        }
-      ]
-    },
-    {
-      "before": [
-        "<C-n>"
-      ],
-      "after": [],
-      "commands": [
+            "before": [
+                "<space>",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
         {
-          "command": ":nohl"
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "n"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.terminal.toggleTerminal"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.splitEditor"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.focusFirstEditorGroup"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.focusSecondEditorGroup"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": ":nohl"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
         }
-      ]
-    },
-    {
-      "before": [
-        "<space>",
-        "q"
-      ],
-      "commands": [
-        "workbench.action.closeActiveEditor"
-      ]
-    }
-  ],
+    ],
 }
