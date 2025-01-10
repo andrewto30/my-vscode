@@ -19,7 +19,6 @@
     "editor.scrollbar.vertical": "hidden",
     "editor.overviewRulerBorder": false,
     "editor.bracketPairColorization.enabled": true,
-    "editor.cursorStyle": "block",
     "editor.cursorBlinking": "solid",
     "editor.formatOnSave": true,
     "editor.renderLineHighlight": "none",
