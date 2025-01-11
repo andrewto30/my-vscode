@@ -24,7 +24,6 @@
     "editor.renderLineHighlight": "none",
     "editor.lineNumbers": "relative",
     "extensions.ignoreRecommendations": true,
-    //"editor.guides.bracketPairs": "active",
     "editor.stickyScroll.enabled": true,
     "editor.codeLens": false,
     "workbench.layoutControl.enabled": false,
@@ -32,11 +31,8 @@
     "workbench.activityBar.location": "hidden",
     "workbench.sideBar.location": "right",
     // Vim setup
-    //   "vim.enableNeovim": false,
-    //   "vim.neovimPath": "/usr/bin/nvim",
     "vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
     "vim.leader": "<space>",
-    // "vim.cursorStylePerMode.insert": "block",
     "vim.easymotion": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
@@ -70,6 +66,7 @@
                 "d"
             ]
         },
+        // change to any command
         {
             "before": [
                 "<leader>",
@@ -78,7 +75,7 @@
             "after": [],
             "commands": [
                 {
-                    "command": "workbench.action.terminal.focus"
+                    "command": ""
                 }
             ]
         },
@@ -118,9 +115,10 @@
                 "p"
             ],
             "commands": [
-                "workbench.action.quickOpen"
+                "editor.action.showHover"
             ]
         },
+        // Change to any command
         {
             "before": [
                 "<leader>",
@@ -129,7 +127,7 @@
             "after": [],
             "commands": [
                 {
-                    "command": "workbench.action.quickOpen"
+                    "command": ""
                 }
             ]
         },
@@ -199,6 +197,24 @@
             ],
             "commands": [
                 "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "d"
+            ],
+            "commands": [
+                "editor.action.peekDefinition"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "w"
+            ],
+            "commands": [
+                ":w"
             ]
         }
     ],
