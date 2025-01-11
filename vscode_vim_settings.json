@@ -42,7 +42,8 @@
         "<C-a>": false,
         "<C-p>": false,
         "<C-f>": false,
-        "<C-b>": false
+        "<C-b>": false,
+        "<C-w>": false
     },
     "vim.insertModeKeyBindings": [
         {
