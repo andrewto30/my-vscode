@@ -1,6 +1,6 @@
 {
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.colorTheme": "Catppuccin Macchiato",
     "workbench.statusBar.visible": true,
     "window.titleBarStyle": "native",
     "window.title": "",
@@ -13,7 +13,7 @@
     "workbench.editor.empty.hint": "hidden",
     "workbench.startupEditor": "none",
     "window.density.editorTabHeight": "compact",
-    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontFamily": "'JetBrains Mono', monospace",
     "editor.fontSize": 12.5,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
@@ -22,12 +22,17 @@
     "editor.cursorBlinking": "solid",
     "editor.formatOnSave": true,
     "editor.renderLineHighlight": "none",
+    "editor.lineNumbers": "relative",
     "extensions.ignoreRecommendations": true,
-    //"editor.guides.bracketPairs": "active",
     "editor.stickyScroll.enabled": true,
     "editor.codeLens": false,
     "workbench.layoutControl.enabled": false,
     "editor.minimap.enabled": false,
-    "workbench.activityBar.location": "hidden",
     "workbench.sideBar.location": "right",
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.location": "hidden",
+    "terminal.integrated.initialHint": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
 }
