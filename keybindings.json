@@ -85,5 +85,14 @@
         "key": "ctrl+w",
         "command": "-vscode-neovim.send",
         "when": "editorTextFocus && neovim.init && neovim.mode != 'insert'"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-vscode-neovim.send",
+        "when": "editorTextFocus && neovim.init && neovim.mode != 'insert'"
     }
 ]
